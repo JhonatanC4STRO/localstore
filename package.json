@@ -10,8 +10,10 @@
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.10",
+    "@supabase/supabase-js": "^2.98.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "framer-motion": "^12.34.3",
     "icons": "^1.0.0",
     "lucide-react": "^0.575.0",
     "motion": "^12.34.3",

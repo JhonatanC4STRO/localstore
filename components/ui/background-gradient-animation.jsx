@@ -3,14 +3,14 @@ import { cn } from "@/lib/utils";
 import { useEffect, useRef, useState } from "react";
 
 export const BackgroundGradientAnimation = ({
-  gradientBackgroundStart = "rgb(108, 0, 162)",
-  gradientBackgroundEnd = "rgb(0, 17, 82)",
-  firstColor = "18, 113, 255",
-  secondColor = "221, 74, 255",
-  thirdColor = "100, 220, 255",
-  fourthColor = "200, 50, 50",
-  fifthColor = "180, 180, 50",
-  pointerColor = "140, 100, 255",
+  gradientBackgroundStart = "rgb(0, 40, 20)",
+  gradientBackgroundEnd = "rgb(0, 15, 5)",
+  firstColor = "0, 201, 80",
+  secondColor = "30, 215, 96",
+  thirdColor = "0, 255, 128",
+  fourthColor = "0, 120, 50",
+  fifthColor = "100, 255, 150",
+  pointerColor = "0, 201, 80",
   size = "80%",
   blendingValue = "hard-light",
   children,
@@ -65,7 +65,7 @@ export const BackgroundGradientAnimation = ({
   return (
     <div
       className={cn(
-        "h-screen  relative overflow-hidden top-0 left-0 bg-[linear-gradient(40deg,var(--gradient-background-start),var(--gradient-background-end))]",
+        "h-screen relative overflow-hidden top-0 left-0 bg-[linear-gradient(40deg,var(--gradient-background-start),var(--gradient-background-end))]",
         containerClassName
       )}>
       <svg className="hidden">
@@ -81,10 +81,6 @@ export const BackgroundGradientAnimation = ({
           </filter>
         </defs>
       </svg>
-      <div>
-<p className="text-gray-500 text-sm mb-1">Bienvenido de nuevo a tu comunidad</p>
-<h1 className="text-gray-900 text-3xl font-bold mb-6">Inicia sesión</h1>
-      </div>
       <div className={cn("", className)}>{children}</div>
       <div
         className={cn(

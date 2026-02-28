@@ -11,11 +11,11 @@ export default function Header() {
           <CiChat1 className='h-8 w-8' />
 
         </Link>
-        <Link className='flex items-center gap-5 bg-green-600 hover:bg-green-700 text-white py-1 px-4 rounded-lg' href='/auth/signup'>
+        <Link className='flex items-center gap-5 bg-[#00C950]  hover:bg-green-700 text-white py-1 px-4 rounded-lg' href='/auth/signup'>
           <CiSquarePlus className='h-8 w-8' />
 
           Vender </Link>
-        <Link className='flex items-center bg-gray-200 py-2 px-4 rounded-lg  hover:bg-gray-300' href="/auth/login"><CiLogin /> Log In</Link>
+        <Link className='flex items-center bg-[#E7000B] py-2 px-4 rounded-lg  hover:bg-gray-300' href="/auth/login"><CiLogin /> Log In</Link>
       </div>
     </div>
   )
